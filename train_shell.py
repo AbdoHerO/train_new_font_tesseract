@@ -1,6 +1,15 @@
 import os
 import subprocess
 
+
+# TrainAnewFontWithTesseract.ipynb : https://colab.research.google.com/github/AniqueManiac/new-font-training-with-tesseract-in-google-colab/blob/main/TrainAnewFontWithTesseract.ipynb
+
+# # install Tesseract-ocr
+# subprocess.run(["chmod", "755", "-R", "tesseract/src/training/tesstrain.sh"])
+
+# # Create files
+# subprocess.run(["mkdir", "fonts", "output", "train"])
+
 # Make the tesstrain.sh script executable
 subprocess.run(["chmod", "755", "-R", "tesseract/src/training/tesstrain.sh"])
 
